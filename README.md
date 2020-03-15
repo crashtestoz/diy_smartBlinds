@@ -1,2 +1,4 @@
 # diy_smartBlinds
-This is the Arduino code for the DIY SmartBlinds from https://www.candco.com.au
+This repo contains 
+- the Arduino sketch for the DIY SmartBlinds from https://www.candco.com.au. 
+- the DIY SmartBlinds SmartThings Device Hadler
