@@ -148,6 +148,19 @@ def close() {
     //updateTiles("0")
 }
 
+def on() {
+	log.debug "open()"
+	// TODO: handle 'open' command	
+    moveBlinds("100")
+    //updateTiles("100")
+}
+
+def off() {
+	log.debug "close()"
+	// TODO: handle 'close' command
+    moveBlinds("0")
+    //updateTiles("0")
+}
 
 // handle commands
 def blindsPreset00() {
